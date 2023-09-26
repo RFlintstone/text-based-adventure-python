@@ -1,0 +1,51 @@
+{
+  "bathroom": {
+    "description": "A small bathroom with white tiles and a tub/shower combo.",
+    "inspect_description": "",
+    "exits": {
+      "west": "game room"
+    },
+    "items": ["towel", "soap", "shampoo"],
+    "npcs": []
+  },
+
+  "study": {
+    "description": "A quiet study with a large wooden desk and tall bookshelves.",
+    "inspect_description": "",
+    "exits": {
+      "east": ""
+    },
+    "items": ["book", "paper", "pen"],
+    "npcs": []
+  },
+
+  "dining room": {
+    "description": "An elegant dining room with a long table and crystal chandelier.",
+    "inspect_description": "",
+    "exits": {
+      "east": "kitchen"
+    },
+    "items": ["plate", "fork", "spoon"],
+    "npcs": []
+  },
+
+  "game room": {
+    "description": "A spacious game room with various games and entertainment.",
+    "inspect_description": "",
+    "exits": {
+      "east": "bathroom"
+    },
+    "items": ["pool cue", "dart", "controller"],
+    "npcs": []
+  },
+
+  "bedroom": {
+    "description": "A comfortable bedroom with a queen-sized bed and walk-in closet.",
+    "inspect_description": "",
+    "exits": {
+      "east": ""
+    },
+    "items": ["pillow", "blanket", "teddy bear"],
+    "npcs": []
+  }
+}
